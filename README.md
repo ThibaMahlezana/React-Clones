@@ -3,3 +3,5 @@ These are the clones of one the most popular sites, programmed using React and N
 
 1. Twitter Clone
 2. Facebook Clone
+3. Instagram Clone
+4. TikTok Clone
