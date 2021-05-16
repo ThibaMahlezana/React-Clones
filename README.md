@@ -7,3 +7,4 @@ These are the clones of one the most popular sites, programmed using React and N
 4. TikTok Clone
 5. Zoom Clone
 6. Uber Clone
+7. Spotify
