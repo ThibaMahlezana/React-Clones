@@ -10,13 +10,27 @@ const authRoute = require("./routes/auth");
 dotenv.config();
 
 //connecting to the database
-mongoose.connect(
-  process.env.MONGO_URL,
-  { useNewUrlParser: true, useUnifiedTopology: true },
-  () => {
-    console.log("connected to MongoDB database");
-  }
-);
+// mongoose.connect(
+//   process.env.MONGO_URL,
+//   { useNewUrlParser: true, useUnifiedTopology: true },
+//   () => {
+//     console.log("connected to MongoDB database");
+//   }
+// );
+
+//connecting to the database locally
+mongoose.connect("mongodb://localhost/fbsocialDB", {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+});
+
+mongoose.connection
+  .once("open", () => {
+    console.log("connected to local database");
+  })
+  .on("error", () => {
+    console.log("connection error");
+  });
 
 app.use(express.json());
 app.use(helmet());
