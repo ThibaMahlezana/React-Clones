@@ -9,4 +9,4 @@ These are the clones of one the most popular sites, programmed using React and N
 6. Uber Clone
 7. Spotify
 
-## :warning: Disclaimer : Cloned for educational purposes only.
+### :warning: Disclaimer : Cloned for educational purposes only.
