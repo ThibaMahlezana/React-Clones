@@ -1,0 +1,277 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: #f0f2f5;
+  font-family: "Poppins", sans-serif;
+}
+
+.App {
+  background-color: #f1f2f5;
+}
+
+/** Login page **/
+main {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 2rem;
+}
+
+main .login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 80vh;
+}
+
+main .login .login-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 550px;
+  margin-right: 5rem;
+  margin-top: 6rem;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+main .login .logo-img {
+  display: block;
+  width: 270px;
+}
+
+main .login .login-text {
+  padding: 15px;
+  font-size: 25px;
+}
+
+main .form-container {
+  width: 390px;
+}
+
+main .form-container form {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 15px;
+  background-color: #fff;
+  border: none;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+main .form-container form input[type="email"] {
+  width: 100%;
+  padding: 15px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 16px;
+  margin: 10px auto;
+  border: 1px solid lightgray;
+  border-radius: 8px;
+  border-width: thin;
+  outline-width: thin;
+  outline-color: #a0a0ff;
+}
+
+main .form-container form input[type="email"]:focus {
+  outline: none;
+  -webkit-box-shadow: 0px 0px 2px #0066ff;
+          box-shadow: 0px 0px 2px #0066ff;
+}
+
+main .form-container form input[type="password"] {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 16px;
+  margin: 10px auto;
+  border: 1px solid lightgray;
+  border-radius: 8px;
+  outline-width: thin;
+  outline-color: #a0a0ff;
+}
+
+main .form-container form input[type="password"]:focus {
+  outline: none;
+  -webkit-box-shadow: 0px 0px 2px #0066ff;
+          box-shadow: 0px 0px 2px #0066ff;
+}
+
+main .form-container form .login-btn {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  margin: 10px auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #004790;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  border: none;
+  font-weight: 700;
+  border-radius: 8px;
+}
+
+main .form-container form .login-btn:hover {
+  cursor: pointer;
+  background-color: #003780;
+  border: none;
+}
+
+main .form-container form .login-btn:active {
+  cursor: progress;
+  background-color: #102770;
+  border: none;
+  outline: none;
+}
+
+main .form-container form .login-btn:focus {
+  outline: none;
+  -webkit-box-shadow: 0 0 2px #0066ff;
+          box-shadow: 0 0 2px #0066ff;
+}
+
+main .form-container form .link {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-size: 16px;
+  color: #004790;
+}
+
+main .form-container form hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 1.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #e0e0e0;
+}
+
+main .form-container form .register-btn {
+  display: block;
+  width: 60%;
+  background-color: #32cd32;
+  padding: 14px;
+  margin: 10px auto;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  border: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: center;
+  border-radius: 8px;
+}
+
+main .form-container form .register-btn:hover {
+  cursor: pointer;
+  border: none;
+  background-color: #67ab04;
+  outline: none;
+}
+
+main .form-container form .register-btn:focus {
+  outline: none;
+  background-color: #67ab04;
+}
+
+main .form-container .create-page {
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+}
+
+main .form-container .create-page a {
+  text-decoration: none;
+  font-weight: 700;
+  color: #000;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  background-color: #fff;
+  padding-bottom: 1rem;
+}
+
+.footer .footer-sec {
+  max-width: 968px;
+  color: #737373;
+  margin: 0;
+  padding: 0;
+}
+
+.footer .footer-sec ul {
+  line-height: 1.6;
+}
+
+.footer .footer-sec ul li {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  padding-left: 10px;
+  font-size: 12px;
+  list-style: none;
+}
+
+.footer .footer-sec a {
+  white-space: nowrap;
+  margin: 0;
+  padding: 0;
+  color: #385898;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.footer .footer-sec a:hover {
+  text-decoration: underline;
+}
+
+.footer .footer-sec .line {
+  border-bottom: 1px solid #dddfe2;
+  font-size: 1px;
+  height: 8px;
+  margin-bottom: 8px;
+}
+
+.footer .footer-sec .copyright {
+  font-size: 12px;
+  padding-left: 10px;
+  padding-top: 1rem;
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,7 +1,10 @@
+import Login from "./pages/Login";
 
 function App() {
   return (
-    <h1>Facebook Clone</h1>
+    <div>
+      <Login />
+    </div>
   );
 }
 
