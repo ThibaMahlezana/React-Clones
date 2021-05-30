@@ -288,6 +288,8 @@ main .form-container .create-page a {
   position: sticky;
   z-index: 100;
   top: 0;
+  -webkit-box-shadow: 0 5px 8px -9px rgba(0, 0, 0, 0.75);
+          box-shadow: 0 5px 8px -9px rgba(0, 0, 0, 0.75);
   /**box-shadow: 0 5px 8px -9px rgb(0, 0, 0, 0.75);**/
 }
 
@@ -327,12 +329,12 @@ main .form-container .create-page a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 0 30px;
-  cursor: pointer;
-  border: #2e81f4;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .header .center .option {
@@ -352,5 +354,36 @@ main .form-container .create-page a {
   border-radius: 10px;
   padding: 0 30px;
   border-bottom: none;
+}
+
+.header .center .option .MuiSvgIcon-root {
+  color: grey;
+}
+
+.header .center .option .MuiSvgIcon-root:hover {
+  color: #2e81f4;
+}
+
+.header .center .active-option {
+  border-bottom: 4px solid #2e81f4;
+}
+
+.header .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header .right .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .right .info h4 {
+  margin-left: 10px;
 }
 /*# sourceMappingURL=styles.css.map */

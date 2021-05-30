@@ -250,6 +250,7 @@ main {
   position: sticky;
   z-index: 100;
   top: 0;
+  box-shadow: 0 5px 8px -9px rgba(0, 0, 0, 0.75);
   /**box-shadow: 0 5px 8px -9px rgb(0, 0, 0, 0.75);**/
 
   .left {
@@ -278,10 +279,8 @@ main {
 
   .center {
     display: flex;
-    align-items: center;
-    padding: 0 30px;
-    cursor: pointer;
-    border: #2e81f4;
+    flex: 1;
+    justify-content: center;
 
     .option {
       display: flex;
@@ -295,6 +294,30 @@ main {
         border-radius: 10px;
         padding: 0 30px;
         border-bottom: none;
+      }
+
+      .MuiSvgIcon-root {
+        color: grey;
+
+        &:hover {
+          color: #2e81f4;
+        }
+      }
+    }
+    .active-option {
+      border-bottom: 4px solid #2e81f4;
+    }
+  }
+
+  .right {
+    display: flex;
+
+    .info {
+      display: flex;
+      align-items: center;
+
+      h4 {
+        margin-left: 10px;
       }
     }
   }

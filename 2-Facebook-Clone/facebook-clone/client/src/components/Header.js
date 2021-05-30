@@ -25,9 +25,39 @@ function Header() {
         </div>
       </div>
       <div className="center">
-        <div className="option">
+        <div className="option active-option">
           <HomeIcon fontSize="large" />
         </div>
+        <div className="option">
+          <FlagIcon fontsize="large" />
+        </div>
+        <div className="option">
+          <SubscriptionsOutlinedIcon fontsize="large" />
+        </div>
+        <div className="option">
+          <StorefrontOutlinedIcon fontsize="large" />
+        </div>
+        <div className="option">
+          <SupervisedUserCircleIcon fontsize="large" />
+        </div>
+      </div>
+      <div className="right">
+        <div className="info">
+          <Avatar />
+          <h4>Thiba</h4>
+        </div>
+        <IconButton>
+          <AddIcon />
+        </IconButton>
+        <IconButton>
+          <ForumIcon />
+        </IconButton>
+        <IconButton>
+          <NotificationsActiveIcon />
+        </IconButton>
+        <IconButton>
+          <ExpandMoreIcon />
+        </IconButton>
       </div>
     </div>
   );
