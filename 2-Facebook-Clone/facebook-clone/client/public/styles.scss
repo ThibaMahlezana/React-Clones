@@ -241,3 +241,61 @@ main {
     }
   }
 }
+
+/** Header **/
+.header {
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  z-index: 100;
+  top: 0;
+  /**box-shadow: 0 5px 8px -9px rgb(0, 0, 0, 0.75);**/
+
+  .left {
+    display: flex;
+    justify-content: space-evenly;
+
+    img {
+      height: 40px;
+    }
+
+    .input-sec {
+      display: flex;
+      align-items: center;
+      background-color: #eff2f5;
+      padding: 10px;
+      margin-left: 10px;
+      border-radius: 999px;
+
+      input {
+        border: none;
+        background-color: transparent;
+        outline: 0;
+      }
+    }
+  }
+
+  .center {
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    cursor: pointer;
+    border: #2e81f4;
+
+    .option {
+      display: flex;
+      align-items: center;
+      padding: 0 30px;
+      cursor: pointer;
+      border: #2e81f4;
+
+      &:hover {
+        background-color: #eff2f5;
+        border-radius: 10px;
+        padding: 0 30px;
+        border-bottom: none;
+      }
+    }
+  }
+}

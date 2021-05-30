@@ -274,4 +274,83 @@ main .form-container .create-page a {
   padding-left: 10px;
   padding-top: 1rem;
 }
+
+/** Header **/
+.header {
+  padding: 15px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 100;
+  top: 0;
+  /**box-shadow: 0 5px 8px -9px rgb(0, 0, 0, 0.75);**/
+}
+
+.header .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.header .left img {
+  height: 40px;
+}
+
+.header .left .input-sec {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #eff2f5;
+  padding: 10px;
+  margin-left: 10px;
+  border-radius: 999px;
+}
+
+.header .left .input-sec input {
+  border: none;
+  background-color: transparent;
+  outline: 0;
+}
+
+.header .center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 30px;
+  cursor: pointer;
+  border: #2e81f4;
+}
+
+.header .center .option {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 30px;
+  cursor: pointer;
+  border: #2e81f4;
+}
+
+.header .center .option:hover {
+  background-color: #eff2f5;
+  border-radius: 10px;
+  padding: 0 30px;
+  border-bottom: none;
+}
 /*# sourceMappingURL=styles.css.map */
