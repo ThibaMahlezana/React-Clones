@@ -1,6 +1,5 @@
 .register .content {
   height: 100vh;
-  background-color: red;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -11,9 +10,23 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding: 20px;
 }
 
 .register .content .heading {
   font-size: 64px;
+}
+
+.register .content .heading btn-signup {
+  background-color: #1DA1F2;
+  color: #fff;
+}
+
+.register .content button {
+  font-size: large;
+  padding: 8px;
+  width: 60%;
+  margin-top: 10px;
+  border-radius: 3rem;
 }
 /*# sourceMappingURL=styles.css.map */

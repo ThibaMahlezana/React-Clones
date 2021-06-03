@@ -3,7 +3,7 @@ import {FaTwitter} from 'react-icons/fa'
 
 function Register(){
     return(
-    <div className="container register">
+    <div className="register">
         <div className="row">
             <div className="col-6"> <FaTwitter/> Image</div>
             <div className="col-6"> 
@@ -11,8 +11,8 @@ function Register(){
                     <FaTwitter/> 
                     <h1 className="heading">Happening now</h1>
                     <h2>Join Twitter today.</h2>
-                    <button>Sign up</button>
-                    <button>Log in</button>
+                    <button className="btn btn-signup">Sign up</button>
+                    <button className="btn">Log in</button>
                 </div>
             </div>
         </div>

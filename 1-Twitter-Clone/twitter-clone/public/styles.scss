@@ -1,13 +1,28 @@
 .register {
-    
+    $primary_color: #1DA1F2;
     .content {
         height: 100vh;
-        background-color: red;
         display: flex;
         flex-direction: column;
         justify-content: center;
+        padding: 20px;
+
         .heading {
             font-size: 64px;
+            btn-signup {
+                background-color: $primary_color;
+                color: #fff;
+            }
+    
+            btn-login {}
         }
+        button {
+            font-size: large;
+            padding: 8px;
+            width: 60%;
+            margin-top: 10px;
+            border-radius: 3rem;
+        }
+        
     }
 }
