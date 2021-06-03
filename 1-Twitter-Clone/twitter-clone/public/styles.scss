@@ -1,0 +1,13 @@
+.register {
+    
+    .content {
+        height: 100vh;
+        background-color: red;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .heading {
+            font-size: 64px;
+        }
+    }
+}
