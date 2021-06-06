@@ -1,3 +1,13 @@
+@import url("http://fonts.cdnfonts.com/css/helvetica-neue-9");
+body {
+  font-family: "Helvetica Neue", sans-serif;
+  font-family: "Helvetica 25 UltraLight", sans-serif;
+  font-family: "Helvetica 35 Thin", sans-serif;
+  font-family: "Helvetica 45 Light", sans-serif;
+  font-family: "Helvetica 55 Roman", sans-serif;
+  font-family: "Helvetica 65 Medium", sans-serif;
+}
+
 .register .content {
   height: 100vh;
   display: -webkit-box;
@@ -15,11 +25,21 @@
 
 .register .content .heading {
   font-size: 64px;
+  font-weight: 600;
+  margin-bottom: 50px;
+  letter-spacing: 1.2px;
 }
 
-.register .content .heading btn-signup {
-  background-color: #1DA1F2;
+.register .content .heading .btn-signup {
+  background-color: #1da1f2;
   color: #fff;
+}
+
+.register .content .sub-heading {
+  font-size: 25px;
+  font-weight: 900;
+  margin-bottom: 8px;
+  letter-spacing: 1.2px;
 }
 
 .register .content button {
@@ -28,5 +48,34 @@
   width: 60%;
   margin-top: 10px;
   border-radius: 3rem;
+  border-color: #1da1f2;
+  font-weight: 900;
+  color: #1da1f2;
+}
+
+.register .register-bg {
+  color: white;
+  font-size: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.register .copyright {
+  padding: 10px 5px;
+  font-size: medium;
+}
+
+.register .copyright a {
+  color: #657786;
+  font-weight: 400;
+  margin: 0 10px;
+  font-size: 13px;
 }
 /*# sourceMappingURL=styles.css.map */
