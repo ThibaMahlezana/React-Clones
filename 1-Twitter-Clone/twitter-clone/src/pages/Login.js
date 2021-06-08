@@ -5,7 +5,7 @@ function Login() {
     <div className="container">
       <div className="login">
         <div className="login-box">
-          <FaTwitter style={{ color: "#1da1f2" }} />
+          <FaTwitter style={{ color: "#1da1f2", fontSize: "50px" }} />
           <h1>Log in to Twitter</h1>
           <input type="text" placeholder="Phone, email, or username" />
           <input type="password" placeholder="Password" />

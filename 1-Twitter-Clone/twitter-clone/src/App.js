@@ -3,12 +3,12 @@ import Login from "./pages/Login";
 
 function App() {
   return (
-    <h1>
+    <div>
       <Login />
       {
         //<Register />
       }
-    </h1>
+    </div>
   );
 }
 
