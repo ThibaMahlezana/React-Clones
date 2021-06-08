@@ -1,5 +1,7 @@
 @import url("http://fonts.cdnfonts.com/css/helvetica-neue-9");
 $primary_color: #1da1f2;
+$dark_grey: #657786;
+$light_grey: #aab8c2;
 
 body {
   font-family: "Helvetica Neue", sans-serif;
@@ -63,6 +65,60 @@ body {
       font-weight: 400;
       margin: 0 10px;
       font-size: 13px;
+    }
+  }
+}
+
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .login-box {
+    padding: 10px;
+    max-width: 400px;
+    margin-top: 15px;
+
+    h1 {
+      margin-top: 15px;
+    }
+
+    input[type="text"] {
+      margin-top: 15px;
+      margin-bottom: 10px;
+      border: 1px solid #aab8c2;
+      border-radius: 5px;
+      font-size: 20px;
+      height: 60px;
+      width: 100%;
+
+      ::placeholder {
+        color: $light_grey;
+      }
+    }
+
+    input[type="password"] {
+      margin-top: 15px;
+      margin-bottom: 10px;
+      border: 1px solid #aab8c2;
+      border-radius: 5px;
+      font-size: 20px;
+      height: 60px;
+      width: 100%;
+    }
+
+    .btn-login {
+      background-color: $primary_color;
+      color: white;
+      height: 55px;
+      width: 100%;
+      border-radius: 2rem;
+      font-size: 20px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    a {
+      font-size: medium;
     }
   }
 }
