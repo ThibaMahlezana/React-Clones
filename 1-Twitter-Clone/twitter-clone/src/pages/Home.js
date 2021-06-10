@@ -3,7 +3,9 @@ import MenuBar from "../components/MenuBar";
 function Home() {
   return (
     <div className="container">
-      <MenuBar />
+      <div className="row">
+        <MenuBar />
+      </div>
     </div>
   );
 }

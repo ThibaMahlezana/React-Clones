@@ -10,7 +10,7 @@ import { CgMoreO } from "react-icons/cg";
 
 function MenuBar() {
   return (
-    <div className="menu-bar">
+    <div className="menu-bar col-4">
       <FaTwitter />
       <ul>
         <li>
@@ -38,6 +38,7 @@ function MenuBar() {
           <CgMoreO /> More
         </li>
       </ul>
+      <button className="btn">Tweet</button>
     </div>
   );
 }

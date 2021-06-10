@@ -124,7 +124,21 @@ body {
 }
 
 .menu-bar {
+  font-size: 26px;
+  font-weight: 600;
+
+  ul {
+    margin: 0;
+    padding: 0;
+  }
   ul li {
     list-style-type: none;
+    margin: 20px 0;
+  }
+  .btn {
+    background-color: $primary_color;
+    color: white;
+    border-radius: 3rem;
+    width: 100%;
   }
 }

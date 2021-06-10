@@ -152,7 +152,25 @@ body {
   font-size: medium;
 }
 
+.menu-bar {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.menu-bar ul {
+  margin: 0;
+  padding: 0;
+}
+
 .menu-bar ul li {
   list-style-type: none;
+  margin: 20px 0;
+}
+
+.menu-bar .btn {
+  background-color: #1da1f2;
+  color: white;
+  border-radius: 3rem;
+  width: 100%;
 }
 /*# sourceMappingURL=styles.css.map */
