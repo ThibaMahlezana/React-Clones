@@ -151,4 +151,8 @@ body {
 .login .login-box a {
   font-size: medium;
 }
+
+.menu-bar ul li {
+  list-style-type: none;
+}
 /*# sourceMappingURL=styles.css.map */

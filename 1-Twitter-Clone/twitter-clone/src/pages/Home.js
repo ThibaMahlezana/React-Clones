@@ -1,10 +1,9 @@
-import MeneBar from "../components/MenuBar";
+import MenuBar from "../components/MenuBar";
 
 function Home() {
   return (
-    <div>
-      Home Page
-      <MeneBar />
+    <div className="container">
+      <MenuBar />
     </div>
   );
 }
