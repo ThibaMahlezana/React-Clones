@@ -9,16 +9,10 @@ function Feed() {
       <CreatePostBox />
       <Post
         profilePic="https://images.unsplash.com/photo-1529665253569-6d01c0eaf7b6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"
-        image="https://picsum.photos/550"
-        message="Check out my lovely cute puppy, what do you thin guys"
-        timestamp="12:01 am yesterday"
-        username="Thiba"
-      />
-      <Post
-        profilePic="https://images.unsplash.com/photo-1529665253569-6d01c0eaf7b6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"
-        message="I have an idea guys ..."
-        timestamp="12:01 am yesterday"
-        username="Thiba"
+        image="https://picsum.photos/200"
+        message="This is where the message will be"
+        timestamp="10pm yesterday"
+        username="Thiba M"
       />
     </div>
   );
